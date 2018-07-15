@@ -1,9 +1,9 @@
-var app = angular.module('mainApp');
+var app = angular.module('mainApp')
 
 app.component('app', {
-	templateUrl :'/templates/app.html'
-});
+  templateUrl: '/templates/app.html'
+})
 
-app.controller('app', function ($scope,$http){
+app.controller('app', function ($scope, $http) {
 
 })
